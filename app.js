@@ -28,3 +28,22 @@ let pet={
     breed:'doodle'
 };
 console.log(pet);
+let nameAge =[ 
+    {name:'Pam', age: '40'},
+    {name: 'Bob', age: '20'},
+    {name: 'Mac', age:'22'},
+    {name: 'Devin', age:'34'},
+    {name:'Maddie', age: '19'}
+];
+for (let i=0; i < nameAge.length; i++){
+    checkAge(nameAge[i].name, nameAge[i].age);
+};
+function getLength(word){
+    return word.legth;
+}
+let wordLength = getLength('helloworld');
+if (wordLength % 2 == 0){
+    console.log('this world is nice and even!');
+}   else{
+    console.log('this world is an odd place!');
+};
